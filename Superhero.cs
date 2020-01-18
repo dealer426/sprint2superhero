@@ -69,8 +69,8 @@ namespace sprint2superhero
 
         public void WhoAmI()
         {
-            Console.WriteLine("I am " + name + "\nWith a Stregthlevel of  " + strengthLevel +
-                "\nWith a Speedlevel of " + speedLevel + "\nMy current Healthlevel is " + healthLevel);
+            Console.WriteLine("I am " + name + "\nWith a Stregthlevel of:  " + strengthLevel +
+                "\nWith a Speedlevel of: " + speedLevel + "\nMy current Healthlevel is: " + healthLevel);
         }
 
         //Impact Super Heros Health
@@ -82,5 +82,11 @@ namespace sprint2superhero
         }
 
         //Give Super Hero a Power Boost
+
+        public int ImpactSuperHeroPowerBoost(int powerBoostAdjustment)
+        {
+            return StrengthLevel += powerBoostAdjustment;
+
+        }
     }
 }
