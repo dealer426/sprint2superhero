@@ -75,6 +75,12 @@ namespace sprint2superhero
 
         //Impact Super Heros Health
 
+        public int ImpactSuperHeroHealth(int healthAdjustmentNumber)
+        {
+           return HealthLevel += healthAdjustmentNumber;
+
+        }
+
         //Give Super Hero a Power Boost
     }
 }

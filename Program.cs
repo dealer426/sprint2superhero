@@ -10,6 +10,13 @@ namespace sprint2superhero
 
             superMan.WhoAmI();
 
+            //Choose a number to Impact the SuperHeros Health
+            int healthImpact = -20;
+
+            superMan.ImpactSuperHeroHealth(healthImpact);
+
+            Console.WriteLine("My new Health Level: {0}", superMan.HealthLevel);
+
             Console.ReadKey();
 
         }
