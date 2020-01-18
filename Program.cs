@@ -8,6 +8,7 @@ namespace sprint2superhero
         {
             Superhero superMan = new Superhero("Superman", 100, true, 100, 100);
 
+            superMan.WhoAmI();
 
             Console.ReadKey();
 

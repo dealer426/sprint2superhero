@@ -67,6 +67,12 @@ namespace sprint2superhero
 
         //Create 2 Methods
 
+        public void WhoAmI()
+        {
+            Console.WriteLine("I am " + name + "\nWith a Stregthlevel of  " + strengthLevel +
+                "\nWith a Speedlevel of " + speedLevel + "\nMy current Healthlevel is " + healthLevel);
+        }
+
         //Impact Super Heros Health
 
         //Give Super Hero a Power Boost
