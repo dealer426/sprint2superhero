@@ -6,14 +6,14 @@ namespace sprint2superhero
 {
     public class Superhero
     {
-        //Create 4 Fields
+        //Created 5 fields
         private string name;
         private int strengthLevel;
         private bool hasCape;
         private int speedLevel;
         private int healthLevel;
 
-        //Create 4 Properties
+        //Created 5 Properties
         public string Name
         {
             get { return this.name; }
@@ -40,7 +40,7 @@ namespace sprint2superhero
             set { this.healthLevel = value; }
         }
 
-        //Create 3 Constructors
+        //Created 3 Constructors
 
         //Default Contstructor
         public Superhero()
@@ -65,24 +65,23 @@ namespace sprint2superhero
             HealthLevel = healthLevel;
         }
 
-        //Create 2 Methods
-
+        //Created 3 Methods
+        
+        //Method 1
         public void WhoAmI()
         {
             Console.WriteLine("I am " + name + "\nWith a Stregthlevel of:  " + strengthLevel +
                 "\nWith a Speedlevel of: " + speedLevel + "\nMy current Healthlevel is: " + healthLevel);
         }
 
-        //Impact Super Heros Health
-
+        //method 2 Impact Super Heros Health
         public int ImpactSuperHeroHealth(int healthAdjustmentNumber)
         {
            return HealthLevel += healthAdjustmentNumber;
 
         }
 
-        //Give Super Hero a Power Boost
-
+        //Method 3 Give Super Hero a Power Boost
         public int ImpactSuperHeroPowerBoost(int powerBoostAdjustment)
         {
             return StrengthLevel += powerBoostAdjustment;
